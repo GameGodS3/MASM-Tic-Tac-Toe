@@ -22,7 +22,7 @@ data segment
     player db "0$"
     
     game_over_message db "GAME OVER", 0DH, 0AH, "$"    
-    game_start_message db "TIC TAC TOE", 0DH, 0AH, "$"
+    game_start_message db "TIC-TAC-TOE", 0DH, 0AH, "$"
     player_message db "PLAYER $"   
     win_message db " WIN!$"   
     type_message db "TYPE A POSITION: $"
