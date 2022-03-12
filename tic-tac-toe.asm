@@ -99,11 +99,12 @@ main_loop:
     jmp     main_loop   
 
 
-change_player:   
+change_player proc   
     lea     si, player    
     xor     [si], 01h 
     
     ret
+endp
       
  
 update_draw proc
