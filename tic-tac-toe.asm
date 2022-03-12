@@ -346,7 +346,6 @@ endp
        
     
 read_keyboard proc  
-    ; read keybord and return content in ah
     mov     ah, 01h       
     int     21h  
     
